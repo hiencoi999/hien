@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(189, 231, 217);
+}
+
+
+.enterInput{
+    display: flex;
+    flex-flow: row;
+    
+}
+.label_input {
+    background-color: rgb(136, 196, 141);
+    font-size: 24px;
+    font-family: monospace;
+}
+.input {
+    padding: 10px;
+    margin-right: 25px;
+}
+.display_img {
+    display: flex;
+    flex-direction: column;
+}

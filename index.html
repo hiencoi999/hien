@@ -1,8 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>
-            HELLO
-        </h1>
-    </body>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9./jquery-ui.min.js"></script>
+    <script src="scripts.js"></script>
+    
+    <meta charset=utf-8 />
+    <title>JS Bin</title>
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+    article, aside, figure, footer, header, hgroup, 
+    menu, nav, section { display: block; }
+    </style>
+</head>
+<body>
+  <div class="enterInput">
+      <label class="label_input" for="width_requested">Nhap chieu rong: </label>
+      <input class="input" id="width_requested" type="number" placeholder="Width..." oninput="handleWidth()">
+    
+      <label class="label_input" for="height_requested">Nhap chieu cao: </label>
+      <input class="input" id="height_requested" type="number" placeholder="Height..." oninput="handleHeight()">  
+  </div>
+  
+  <br>
+  <div class="display_img">
+    <input id="file" type='file' onchange="readURL(this, w, h);" />
+    <br>
+    
+    <a href="#" download="picture"><img id="blah" src="#" /></a>
+  </div>
+  
+</body>
 </html>
