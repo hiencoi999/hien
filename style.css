@@ -2,7 +2,6 @@ body {
     background-color: rgb(189, 231, 217);
 }
 
-
 .enterInput{
     display: flex;
     flex-flow: row;
