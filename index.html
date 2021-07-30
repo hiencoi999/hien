@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="style.css">
-    <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
-    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-    <script src="scripts.js"></script>
+    
     
     <meta charset=utf-8 />
     <title>update</title>
 
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
     
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     
-    <style>
-    article, aside, figure, footer, header, hgroup, 
-    menu, nav, section { display: block; }
-    </style>
 </head>
 <body>
-  <div class="enterInput">
-      <label class="label_input" for="width_requested">Nhap chieu rong: </label>
-      <input class="input" id="width_requested" type="number" placeholder="Width..." oninput="handleWidth()">
-    
-      <label class="label_input" for="height_requested">Nhap chieu cao: </label>
-      <input class="input" id="height_requested" type="number" placeholder="Height..." oninput="handleHeight()">  
-  </div>
-  
-  <br>
-  <div class="display_img">
-    <input id="file" type='file' onchange="readURL(this, w, h);" />
-    <br>
-    
-    <img id="blah" src="#" />
-  </div>
-  
+  <h1>The a download attribute</h1>
+
+<p>Click on the image to download it:<p>
+<a href="E:/data.txt" download>
+  Dowload
+ 
+</a>
+
+<p><b>Note:</b> The download attribute is not supported in IE or Edge (prior version 18), or in Safari (prior version 10.1).</p>
+  <!-- <header>
+    <h1>Hello, here is some cover songs of me</h1>
+  </header>
+
+  <div class="conntent">
+    <div id="video1">
+      <a href="images/user1.jpg" download="picture">
+        <img src="images/user1.jpg" alt="pic1">
+      </a></div>
+    <div id="video2">
+      
+    </div>
+    <div id="video3"></div>
+    <div id="video4"></div>
+    <div id="video5"></div>
+    <div id="video6"></div>
+    <div id="video7"></div>
+  </div> -->
+  <footer>
+
+  </footer>
 </body>
 </html>
